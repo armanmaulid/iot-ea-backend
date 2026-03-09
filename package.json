@@ -2,17 +2,7 @@
   "name": "iot-ea-backend",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev":    "vercel dev",
-    "deploy": "vercel --prod"
-  },
   "dependencies": {
     "@upstash/redis": "^1.34.0"
-  },
-  "devDependencies": {
-    "vercel": "^33.0.0"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
